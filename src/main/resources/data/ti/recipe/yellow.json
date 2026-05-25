@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "ti:yellow_wooded"
+  ],
+  "result": {
+    "id": "minecraft:bamboo_planks",
+    "count": 4
+  }
+}

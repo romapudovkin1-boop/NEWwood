@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "ti:block/log",
+    "up": "ti:block/log",
+    "north": "ti:block/log",
+    "east": "ti:block/log",
+    "south": "ti:block/log",
+    "west": "ti:block/log",
+    "particle": "ti:block/log"
+  },
+  "render_type": "solid"
+}

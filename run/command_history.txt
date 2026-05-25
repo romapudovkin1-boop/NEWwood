@@ -1,0 +1,10 @@
+/gamemode creative
+/give Player64 minecraft:structure_block
+/give Player64 minecraft:structure_void
+/locate biome ti:yellow_wood
+/tp 283 -57 -123
+/locate structure ti:t_1
+/tp 352 -57 -160
+/locate structure ti:t_1
+/tp -544 -57 352
+/locate structure ti:t_1

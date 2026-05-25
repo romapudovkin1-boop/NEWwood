@@ -1,0 +1,153 @@
+{
+  "mod_elements": [
+    {
+      "name": "YellowWooded",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_wooded",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tititi/block/YellowWoodedBlock.java",
+          "src/main/resources/assets/ti/items/yellow_wooded.json",
+          "src/main/resources/data/ti/loot_table/blocks/yellow_wooded.json",
+          "src/main/resources/assets/ti/models/item/yellow_wooded.json",
+          "src/main/resources/assets/ti/blockstates/yellow_wooded.json",
+          "src/main/resources/assets/ti/models/block/yellow_wooded.json"
+        ]
+      }
+    },
+    {
+      "name": "YellowWood",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ti/worldgen/placed_feature/yellow_wood_tree.json",
+          "src/main/resources/data/ti/worldgen/configured_feature/yellow_wood_tree.json",
+          "src/main/resources/data/ti/worldgen/biome/yellow_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "Yellow",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ti/recipe/yellow.json",
+          "src/main/resources/data/ti/advancement/recipes/yellow.json"
+        ]
+      }
+    },
+    {
+      "name": "T1",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/ti/worldgen/structure_set/t_1.json",
+          "src/main/resources/data/ti/worldgen/structure/t_1.json",
+          "src/main/resources/data/ti/worldgen/template_pool/t_1.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "breaknew",
+      "files": [
+        "lavachicken"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:YellowWooded"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:YellowWooded"
+    ],
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:YellowWood"
+    ],
+    "BIOMES:minecraft:has_structure/desert_pyramid": [
+      "~CUSTOM:YellowWood"
+    ],
+    "BIOMES:minecraft:has_structure/nether_fortress": [
+      "~CUSTOM:YellowWood"
+    ],
+    "BIOMES:minecraft:has_structure/village_desert": [
+      "~CUSTOM:YellowWood"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.ti.yellow_wooded": "Yellow Wood",
+      "subtitles.breaknew": "",
+      "biome.ti.yellow_wood": "Yellow Wood"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/tititi/mixin/NoiseGeneratorSettingsMixin.java",
+      "src/main/java/net/mcreator/tititi/init/TiModBiomes.java",
+      "src/main/java/net/mcreator/tititi/init/TiModBlocks.java",
+      "src/main/java/net/mcreator/tititi/init/TiModBlocksRenderers.java",
+      "src/main/java/net/mcreator/tititi/mixin/ServerPlayerMixin.java",
+      "src/main/java/net/mcreator/tititi/init/TiModItems.java",
+      "src/main/java/net/mcreator/tititi/mixin/RepairItemRecipeMixin.java",
+      "src/main/java/net/mcreator/tititi/mixin/BoneMealItemMixin.java",
+      "src/main/java/net/mcreator/tititi/TiMod.java",
+      "src/main/resources/META-INF/ti.classtweaker",
+      "src/main/java/net/mcreator/tititi/mixin/CommandsMixin.java",
+      "src/main/java/net/mcreator/tititi/event/BlockEvents.java",
+      "src/main/resources/ti.mixins.json",
+      "src/main/java/net/mcreator/tititi/mixin/LivingEntityMixin.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/tititi/event/ItemEvents.java",
+      "src/main/java/net/mcreator/tititi/init/TiModSounds.java",
+      "src/main/java/net/mcreator/tititi/TiModClient.java",
+      "src/main/java/net/mcreator/tititi/event/MiscEvents.java",
+      "src/main/java/net/mcreator/tititi/event/LivingEntityEvents.java",
+      "src/main/java/net/mcreator/tititi/mixin/ItemStackMixin.java",
+      "src/main/resources/assets/ti/sounds.json",
+      "src/main/java/net/mcreator/tititi/mixin/ExperienceOrbMixin.java",
+      "src/main/java/net/mcreator/tititi/event/PlayerEvents.java",
+      "src/main/resources/fabric.mod.json",
+      "src/main/java/net/mcreator/tititi/mixin/BlockItemMixin.java",
+      "src/main/java/net/mcreator/tititi/init/TiModTabs.java",
+      "src/main/java/net/mcreator/tititi/mixin/PlayerMixin.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "ti",
+    "modName": "ti",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.21.8",
+    "modElementsPackage": "net.mcreator.tititi"
+  },
+  "mcreatorVersion": 202600114619
+}

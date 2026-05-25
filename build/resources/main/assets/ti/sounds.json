@@ -1,0 +1,10 @@
+{
+  "breaknew": {
+    "sounds": [
+      {
+        "name": "ti:lavachicken",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "package": "net.mcreator.tititi.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "ti.refmap.json",
+  "mixins": [
+    "NoiseGeneratorSettingsMixin",
+    "RepairItemRecipeMixin",
+    "ServerPlayerMixin",
+    "LivingEntityMixin",
+    "PlayerMixin",
+    "ItemStackMixin",
+    "BlockItemMixin",
+    "BoneMealItemMixin",
+    "CommandsMixin",
+    "ExperienceOrbMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8.4"
+}
